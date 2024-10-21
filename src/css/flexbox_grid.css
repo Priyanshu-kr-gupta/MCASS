@@ -1,1 +1,4 @@
 /* add classes here */
+.flex {
+    display: flex;
+}
