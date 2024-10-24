@@ -101,6 +101,7 @@
 .justify-self-stretch {
     justify-self: stretch;
 }
+/* flex  */
 
 .flex-1 {
     flex: 1 1 0%;
