@@ -214,7 +214,6 @@
 .break-after-column{
     break-after: column;
 }
-
 .overflow-auto {
     overflow: auto;
 }
@@ -256,4 +255,10 @@
 }
 .overflow-y-scroll {
     overflow-y: scroll;
+}
+.box-decoration-clone{
+    box-decoration-break: clone;
+}
+.box-decoration-slice{
+    box-decoration-break: slice;
 }
