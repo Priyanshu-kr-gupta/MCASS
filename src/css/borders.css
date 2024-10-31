@@ -132,6 +132,7 @@ outline-offset: 2px;}
 .outline-dashed   {outline-style: dashed;}
 .outline-dotted   {outline-style: dotted;}
 .outline-double   {outline-style: double;}
+
 /*adding border style property*/
 .border-solid {
     border-style: solid;
