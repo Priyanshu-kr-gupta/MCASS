@@ -255,4 +255,14 @@ text-overflow: ellipsis;
 white-space: nowrap;}
 .text-ellipsis	{text-overflow: ellipsis;}
 .text-clip	{text-overflow: clip;}
-​
+​.font-light{
+The quick brown fox jumps over the lazy dog.}
+.font-normal{
+The quick brown fox jumps over the lazy dog.}
+.font-medium{
+
+The quick brown fox jumps over the lazy dog.}
+.font-semibold{
+The quick brown fox jumps over the lazy dog.}
+.font-bold{
+The quick brown fox jumps over the lazy dog.}
