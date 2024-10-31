@@ -193,3 +193,11 @@ th, td {
     padding: 8px;
     text-align: left;
 }
+
+.border-collapse {
+    border-collapse: collapse;
+}
+
+.border-separate {
+    border-collapse: separate;
+}
