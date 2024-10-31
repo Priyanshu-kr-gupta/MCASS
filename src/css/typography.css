@@ -1,5 +1,21 @@
 /* add classes here */
 
+/* Sumit Kumar */
+.text-wrap{
+    text-wrap: wrap;
+}
+.text-nowrap{
+    text-wrap: nowrap;
+}
+
+.text-balance{
+    text-wrap: balance;
+}
+
+.text-pretty{
+    text-wrap: pretty;
+}
+
 /* neelkanth sahu */
 
 .text-inherit { color: inherit; }
@@ -226,3 +242,17 @@
 @media (max-width: 1280px) {
 
 }
+.antialiased{
+    -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.subpixel-antialiased{
+    -webkit-font-smoothing: auto;
+-moz-osx-font-smoothing: auto;
+}
+.truncate	{overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;}
+.text-ellipsis	{text-overflow: ellipsis;}
+.text-clip	{text-overflow: clip;}
+​
