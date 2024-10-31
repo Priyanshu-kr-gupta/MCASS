@@ -214,14 +214,6 @@
 .break-after-column{
     break-after: column;
 }
-<<<<<<< HEAD
-.box-decoration-clone{
-    box-decoration-break: clone;
-}
-.box-decoration-slice{
-    box-decoration-break: slice;
-=======
-
 .overflow-auto {
     overflow: auto;
 }
@@ -263,5 +255,10 @@
 }
 .overflow-y-scroll {
     overflow-y: scroll;
->>>>>>> de1c92048aafa356de035d7b8f01d10d0000ca48
+}
+.box-decoration-clone{
+    box-decoration-break: clone;
+}
+.box-decoration-slice{
+    box-decoration-break: slice;
 }
