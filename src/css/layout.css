@@ -262,3 +262,9 @@
 .box-decoration-slice{
     box-decoration-break: slice;
 }
+.isolate{
+    isolation: isolate;
+}	
+.isolation-auto{
+    isolation: auto;
+}	
