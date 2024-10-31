@@ -214,3 +214,25 @@
 .break-after-column{
     break-after: column;
 }
+
+.container {
+    position: relative;
+    isolation: isolate; /* Creates a new stacking context */
+    background-color: lightblue;
+    padding: 20px;
+  }
+  
+  .child {
+    position: relative;
+    z-index: 1; /* Stacks above other elements in the same context */
+    background-color: coral;
+    padding: 10px;
+  }
+  
+  .another-child {
+    position: relative;
+    z-index: 0; /* Stacks below the .child element */
+    background-color: lightgreen;
+    padding: 10px;
+  }
+  
