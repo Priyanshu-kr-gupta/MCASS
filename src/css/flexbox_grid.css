@@ -232,7 +232,8 @@
 .col-end-11 { grid-column-end: 11; }
 .col-end-12 { grid-column-end: 12; }
 .col-end-13 { grid-column-end: 13; }
-.col-end-auto { grid-column-end: auto; }
+.col-end-auto 
+{ grid-column-end: auto;}
 .items-start{
 align-items: flex-start;}
 .items-end{

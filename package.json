@@ -1,12 +1,17 @@
 {
   "name": "newcsslib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "owr own css library",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./base": "./dist/csslib.css"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "postcss src/index.css -o dist/csslib.css"
-    
+    "build:css": "postcss src/index.css -o dist/csslib.css",
+    "postinstall": "node setup.js"
+   
   },
   "author": "mca-2023",
   "license": "ISC",
